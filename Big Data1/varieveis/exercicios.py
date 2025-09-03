@@ -12,8 +12,3 @@ print(f"A divisao entre {n1} e {n2} é igual a {divisao}")
 print(f"A multiplicaçao entre {n1} e {n2} é igual a {multiplicaçao}")
 print(f"A subtraçao entre {n1} e {n2} é igual a {subtraçao}")
 print(f"O resto da divisao entre {n1} e {n2} é igual a {restodadivisao}")
-
-if n1 > n2:
-    print(f"O maior valor é {n1}")
-elif n2 > n1:
-    print(f"O maior valor é {n2}")
