@@ -1,6 +1,9 @@
-contador = 1
+nome = 'paulo'
+nomes = ['paulo', 'debora', 'wallace']
 
-while contador <= 10:
-    print(contador)
-    contador += 1
-print("Fim")
+tag = input(str('Digite seu nome: '))
+
+if tag in nomes:
+    print('seu nome está na lista')
+else:
+    print('seu nome não está na lista')
